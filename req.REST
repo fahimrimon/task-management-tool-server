@@ -1,0 +1,25 @@
+POST http://localhost:5000/api/item 
+Content-Type: application/json
+
+{
+"item": "This is My second Task"
+}
+
+###
+
+GET http://localhost:5000/api/items 
+Content-Type: application/json
+
+###
+
+PUT http://localhost:5000/api/item/62bdca0da3ee94e624ddf40e
+Content-Type: application/json
+
+{
+"item": "This is My first Tasks"
+}
+
+###
+
+DELETE http://localhost:5000/api/item/62bdcceb87b4aa34d1db9dc4
+Content-Type: application/json
